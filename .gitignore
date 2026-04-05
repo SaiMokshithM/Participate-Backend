@@ -1,0 +1,32 @@
+# ── Maven ─────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ── IDE / Editor ──────────────────────────────────────────
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.suo
+*.user
+*.swp
+.DS_Store
+
+# ── Logs ──────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Environment / Secrets (NEVER commit these) ────────────
+.env
+.env.local
+.env.production
+
+# ── Uploads folder (user-generated content) ───────────────
+uploads/
+
+# ── Spring Boot devtools restart cache ────────────────────
+spring-app.log
